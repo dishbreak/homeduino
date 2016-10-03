@@ -1,0 +1,48 @@
+@font-face
+{
+	font-family: my_font;
+	src: url('HelveticaLTStd-Light.otf');
+}
+
+@font-face
+{
+	font-family: my_bold;
+	src: url('HelveticaLTStd-Bold.otf');
+}
+
+P
+{
+	font-family: my_font;
+}
+
+H1
+{
+	font-family: my_bold;
+	font-size:300%
+}
+
+body 
+{ 
+	text-align: left; 
+	font-family: my_font;
+	vertical-align: middle; 
+} 
+
+#content 
+{ 
+width: 760px; 
+text-align: left;
+margin-left: 100px;
+font-family: my_font;
+}
+
+.hmm
+{
+	font-style: italic;
+}
+
+.meek
+{
+	font-family: monospace;
+	font-size: 80%;
+}
